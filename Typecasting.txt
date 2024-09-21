@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main() 
+{
+  float a=3.14f;
+  double b=3.1415926535;
+  long double c=3.141592653589793238L;
+  
+  std::cout<<"Float value:"<<a<<std::endl;
+  std::cout<<"Double value:"<<b<<std::endl;
+  std::cout<<"Long double value:"<<c<<std::endl;
+  
+    
+    return 0;
+}
